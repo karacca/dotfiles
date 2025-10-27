@@ -30,3 +30,4 @@ create_symlink "cursor/settings.json" "$HOME/Library/Application Support/Cursor/
 create_symlink "editorconfig/.editorconfig" "$HOME/.editorconfig"
 create_symlink "git/.gitconfig" "$HOME/.gitconfig"
 create_symlink "homebrew/Brewfile" "$HOME/Brewfile"
+create_symlink "zsh/.zshrc" "$HOME/.zshrc"
