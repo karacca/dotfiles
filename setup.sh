@@ -29,10 +29,12 @@ create_symlink "alacritty/theme.toml" "$HOME/.alacritty-theme.toml"
 create_symlink "cursor/settings.json" "$HOME/Library/Application Support/Cursor/User/settings.json"
 create_symlink "editorconfig/.editorconfig" "$HOME/.editorconfig"
 create_symlink "git/.gitconfig" "$HOME/.gitconfig"
+create_symlink "git/.gitignore" "$HOME/.gitignore"
 create_symlink "homebrew/Brewfile" "$HOME/Brewfile"
 create_symlink "ssh/config" "$HOME/.ssh/config"
 create_symlink "zsh/.zshrc" "$HOME/.zshrc"
 
+git config --global core.excludesfile ~/.gitignore
 
 if [ ! -f "$HOME/.hushlogin" ]; then
     touch "$HOME/.hushlogin"
