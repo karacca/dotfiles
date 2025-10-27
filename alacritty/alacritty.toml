@@ -1,0 +1,19 @@
+[general]
+import = ["~/.alacritty-theme.toml"]
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+size = 19.0
+
+[window]
+padding = { x = 10, y = 10 }
+option_as_alt = "OnlyLeft"
+dynamic_title = false
+
+[keyboard]
+bindings = [
+    { key = "Right", mods = "Alt", chars = "\u001BF" },
+    { key = "Left", mods = "Alt", chars = "\u001BB" },
+]
