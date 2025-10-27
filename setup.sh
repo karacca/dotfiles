@@ -32,3 +32,8 @@ create_symlink "git/.gitconfig" "$HOME/.gitconfig"
 create_symlink "homebrew/Brewfile" "$HOME/Brewfile"
 create_symlink "ssh/config" "$HOME/.ssh/config"
 create_symlink "zsh/.zshrc" "$HOME/.zshrc"
+
+
+if [ ! -f "$HOME/.hushlogin" ]; then
+    touch "$HOME/.hushlogin"
+fi
