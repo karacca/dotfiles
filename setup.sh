@@ -27,3 +27,4 @@ create_symlink() {
 create_symlink "alacritty/alacritty.toml" "$HOME/.alacritty.toml"
 create_symlink "alacritty/theme.toml" "$HOME/.alacritty-theme.toml"
 create_symlink "homebrew/Brewfile" "$HOME/Brewfile"
+create_symlink "editorconfig/.editorconfig" "$HOME/.editorconfig"
