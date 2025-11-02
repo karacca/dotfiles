@@ -15,11 +15,11 @@
     "[github-actions-workflow]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "crashReporting.enabled": "off",
     "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
@@ -27,6 +27,7 @@
     "cursor.composer.textSizeScale": 1.15,
     "cursor.composer.usageSummaryDisplay": "always",
     "cursor.cpp.disabledLanguages": [],
+    "cursor.enable_agent_window_setting": false,
     "cursor.enable_agent_window_setting": true,
     "cursor.preferNotificationsSameAsChat": true,
     "debug.console.wordWrap": false,
@@ -54,9 +55,10 @@
     "extensions.autoUpdate": true,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
-    "git.blame.editorDecoration.enabled": true,
+    "git.blame.editorDecoration.enabled": false,
     "redhat.telemetry.enabled": true,
     "security.promptForLocalFileProtocolHandling": false,
+    "security.workspace.trust.enabled": true,
     "telemetry.feedback.enabled": false,
     "window.autoDetectColorScheme": true,
     "window.commandCenter": true,
@@ -64,7 +66,7 @@
     "window.dialogStyle": "custom",
     "window.nativeTabs": true,
     "window.zoomLevel": 1.25,
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "top",
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.showTabs": "multiple",
@@ -77,12 +79,12 @@
     "workbench.preferredDarkColorTheme": "Cursor Dark",
     "workbench.preferredLightColorTheme": "Cursor Light",
     "workbench.settings.editor": "json",
-    "workbench.settings.useSplitJSON": false,
+    "workbench.settings.useSplitJSON": true,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": true,
     "workbench.tree.expandMode": "singleClick",
     "workbench.tree.indent": 4,
     "workbench.tree.renderIndentGuides": "none",
-    "yaml.maxItemsComputed": 10000
+    "yaml.maxItemsComputed": 10000,
 }
