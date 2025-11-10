@@ -71,7 +71,7 @@
   "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.enabled": true,
   "telemetry.feedback.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true,
   "window.commandCenter": true,
   "window.customTitleBarVisibility": "never",
