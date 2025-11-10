@@ -15,4 +15,4 @@
     ui = auto
 
 [core]
-    excludesfile = /Users/omer/.gitignore
+	excludesfile = /Users/omer/.gitignore
