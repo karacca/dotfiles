@@ -47,7 +47,7 @@
       "borderPadding" : 0,
       "borderColor" : "#00000000",
       "blur" : 0,
-      "roundness" : 8,
+      "roundness" : 12,
       "paddingVertical" : 4
     },
     "credit" : "Ömer Karaca",
