@@ -32,7 +32,6 @@ create_symlink "editorconfig/.editorconfig" "$HOME/.editorconfig"
 create_symlink "git/.gitconfig" "$HOME/.gitconfig"
 create_symlink "git/.gitignore" "$HOME/.gitignore"
 create_symlink "homebrew/Brewfile" "$HOME/Brewfile"
-create_symlink "ssh/config" "$HOME/.ssh/config"
 create_symlink "zsh/.zshrc" "$HOME/.zshrc"
 
 git config --global core.excludesfile ~/.gitignore

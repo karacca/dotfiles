@@ -73,8 +73,7 @@
   "telemetry.feedback.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true,
-  "window.commandCenter": true,
-  "window.customTitleBarVisibility": "never",
+"window.commandCenter": true,
   "window.dialogStyle": "custom",
   "window.nativeTabs": true,
   "window.zoomLevel": 1.25,
@@ -98,5 +97,6 @@
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 4,
   "workbench.tree.renderIndentGuides": "none",
-  "yaml.maxItemsComputed": 10000
+  "yaml.maxItemsComputed": 10000,
+  "window.customTitleBarVisibility": "never"
 }
