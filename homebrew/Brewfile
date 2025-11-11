@@ -44,8 +44,8 @@ cask "keepingyouawake"
 cask "meetingbar"
 cask "microsoft-teams"
 cask "openvpn-connect"
-cask "raycast"
 cask "rectangle"
 cask "slack"
-cask "superwhisper"
 cask "transmission"
+
+# https://handy.computer/download
