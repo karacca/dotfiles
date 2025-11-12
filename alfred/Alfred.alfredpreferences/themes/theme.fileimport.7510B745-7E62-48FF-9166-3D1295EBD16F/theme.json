@@ -43,11 +43,11 @@
     "window" : {
       "color" : "#00000033",
       "paddingHorizontal" : 0,
-      "width" : 559,
+      "width" : 600,
       "borderPadding" : 0,
       "borderColor" : "#00000000",
       "blur" : 0,
-      "roundness" : 12,
+      "roundness" : 8,
       "paddingVertical" : 4
     },
     "credit" : "Ömer Karaca",
