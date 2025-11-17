@@ -1,102 +1,102 @@
 {
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.selectionHighlight": false,
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
-  "[dockercompose]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "crashReporting.enabled": "off",
-  "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
-  "cursor.composer.shouldAllowCustomModes": true,
-  "cursor.composer.textSizeScale": 1.15,
-  "cursor.composer.usageSummaryDisplay": "always",
-  "cursor.cpp.disabledLanguages": [],
-  "cursor.enable_agent_window_setting": false,
-  "cursor.preferNotificationsSameAsChat": true,
-  "debug.console.wordWrap": false,
-  "debug.internalConsoleOptions": "openOnSessionStart",
-  "editor.cursorSmoothCaretAnimation": "off",
-  "editor.cursorStyle": "block",
-  "editor.fontFamily": "Jetbrains Mono",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 19,
-  "editor.formatOnPaste": false,
-  "editor.guides.bracketPairs": "active",
-  "editor.hover.hidingDelay": 50,
-  "editor.inlineSuggest.enabled": false,
-  "editor.lineHeight": 0,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "alt",
-  "editor.renderWhitespace": "boundary",
-  "editor.scrollBeyondLastLine": false,
-  "editor.stickyScroll.enabled": true,
-  "eslint.enable": true,
-  "eslint.format.enable": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmPasteNative": false,
-  "extensions.autoUpdate": true,
-  "extensions.ignoreRecommendations": true,
-  "files.autoSave": "onFocusChange",
-  "git.blame.editorDecoration.enabled": false,
-  "redhat.telemetry.enabled": true,
-  "security.promptForLocalFileProtocolHandling": false,
-  "security.workspace.trust.enabled": true,
-  "telemetry.feedback.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.autoDetectColorScheme": true,
-"window.commandCenter": true,
-  "window.dialogStyle": "custom",
-  "window.nativeTabs": true,
-  "window.zoomLevel": 1.25,
-  "workbench.activityBar.location": "top",
-  "workbench.editor.closeOnFileDelete": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.showTabs": "multiple",
-  "workbench.editor.tabActionLocation": "right",
-  "workbench.fontAliasing": "auto",
-  "workbench.hover.delay": 2000,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.layoutControl.enabled": false,
-  "workbench.list.smoothScrolling": true,
-  "workbench.preferredDarkColorTheme": "Cursor Dark",
-  "workbench.preferredLightColorTheme": "Cursor Light",
-  "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": false,
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": true,
-  "workbench.tree.expandMode": "singleClick",
-  "workbench.tree.indent": 4,
-  "workbench.tree.renderIndentGuides": "none",
-  "yaml.maxItemsComputed": 10000,
-  "window.customTitleBarVisibility": "never"
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "crashReporting.enabled": "off",
+    "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
+    "cursor.composer.shouldAllowCustomModes": true,
+    "cursor.composer.textSizeScale": 1.15,
+    "cursor.composer.usageSummaryDisplay": "always",
+    "cursor.cpp.disabledLanguages": [],
+    "cursor.enable_agent_window_setting": false,
+    "cursor.preferNotificationsSameAsChat": true,
+    "debug.console.wordWrap": false,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 19,
+    "editor.formatOnPaste": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.hover.hidingDelay": 50,
+    "editor.inlineSuggest.enabled": false,
+    "editor.lineHeight": 0,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.renderWhitespace": "boundary",
+    "editor.scrollBeyondLastLine": false,
+    "editor.stickyScroll.enabled": true,
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "extensions.autoUpdate": true,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "onFocusChange",
+    "git.blame.editorDecoration.enabled": false,
+    "redhat.telemetry.enabled": true,
+    "security.promptForLocalFileProtocolHandling": false,
+    "security.workspace.trust.enabled": true,
+    "telemetry.feedback.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.autoDetectColorScheme": true,
+    "window.commandCenter": true,
+    "window.customTitleBarVisibility": "never",
+    "window.dialogStyle": "custom",
+    "window.nativeTabs": true,
+    "window.zoomLevel": 1.25,
+    "workbench.activityBar.location": "top",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabActionLocation": "right",
+    "workbench.fontAliasing": "auto",
+    "workbench.hover.delay": 2000,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.preferredDarkColorTheme": "Cursor Dark",
+    "workbench.preferredLightColorTheme": "Cursor Light",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.tree.expandMode": "singleClick",
+    "workbench.tree.indent": 4,
+    "workbench.tree.renderIndentGuides": "none",
+    "yaml.maxItemsComputed": 10000
 }
