@@ -16,3 +16,7 @@
 
 [core]
 	excludesfile = /Users/omer/.gitignore
+
+[alias]
+	ac = "!f() { git add -A && git commit -m \"$1\"; }; f"
+	acp = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
