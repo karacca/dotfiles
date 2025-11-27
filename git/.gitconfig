@@ -1,22 +1,22 @@
 [user]
-    name = Ömer Karaca
-    email = omerkaracca@gmail.com
+  name = Ömer Karaca
+  email = omerkaracca@gmail.com
 
 [init]
-    defaultBranch = master
+  defaultBranch = master
 
 [push]
-    autoSetupRemote = true
+  autoSetupRemote = true
 
 [pull]
-    rebase = false
+  rebase = false
 
 [color]
-    ui = auto
+  ui = auto
 
 [core]
 	excludesfile = /Users/omer/.gitignore
 
 [alias]
-	ac = "!f() { git add -A && git commit -m \"$1\"; }; f"
-	acp = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
+  ac = "!f() { git add -A && git commit -m \"$1\"; }; f"
+  acp = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
