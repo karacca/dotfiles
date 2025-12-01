@@ -16,7 +16,7 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "mkhl.shfmt"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -32,6 +32,9 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
   },
   "crashReporting.enabled": "off",
   "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
@@ -49,7 +52,9 @@
   "editor.fontSize": 19,
   "editor.formatOnPaste": false,
   "editor.guides.bracketPairs": "active",
+  "editor.hover.delay": 1000,
   "editor.hover.hidingDelay": 50,
+  "editor.hover.sticky": true,
   "editor.inlineSuggest.enabled": false,
   "editor.lineHeight": 0,
   "editor.minimap.enabled": false,
@@ -69,6 +74,7 @@
   "redhat.telemetry.enabled": true,
   "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
   "telemetry.feedback.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true,
@@ -83,7 +89,7 @@
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.tabActionLocation": "right",
   "workbench.fontAliasing": "auto",
-  "workbench.hover.delay": 2000,
+  "workbench.hover.delay": 1000,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
