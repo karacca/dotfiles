@@ -12,28 +12,13 @@
     "editor.autoIndent": "advanced",
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+  "[javascript][typescript][typescriptreact][json][jsonc][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[xml]": {
+  "[xml][github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
   "crashReporting.enabled": "off",
@@ -41,7 +26,6 @@
   "cursor.composer.usageSummaryDisplay": "never",
   "cursor.cpp.disabledLanguages": [],
   "cursor.cpp.enablePartialAccepts": true,
-  "cursor.enable_agent_window_setting": false,
   "cursor.preferNotificationsSameAsChat": true,
   "debug.console.wordWrap": false,
   "debug.internalConsoleOptions": "openOnSessionStart",
@@ -82,6 +66,7 @@
   "window.customTitleBarVisibility": "never",
   "window.dialogStyle": "custom",
   "window.nativeTabs": true,
+  "window.restoreWindows": "none",
   "window.zoomLevel": 1.25,
   "workbench.activityBar.location": "top",
   "workbench.editor.closeOnFileDelete": true,
@@ -96,7 +81,7 @@
   "workbench.preferredDarkColorTheme": "Cursor Dark",
   "workbench.preferredLightColorTheme": "Cursor Light",
   "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": false,
+  "workbench.settings.useSplitJSON": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
