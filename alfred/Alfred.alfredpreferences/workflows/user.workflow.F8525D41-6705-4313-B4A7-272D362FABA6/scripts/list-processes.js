@@ -32,7 +32,7 @@ function run() {
 	const showPid = $.getenv("show_pid") === "1";
 
 	/** @type {Record<string, { name: string; childrenCount: number }> } */
-	const parentProcs = {};
+	const parentProcs = {}; // PERF `Map` not quicker, probably due to low integer keys
 
 	// common apps where process name and app name are different
 	/** @type {Record<string, Record<string, string>>} */
@@ -107,6 +107,7 @@ function run() {
 				uid: pid, // during rerun remembers selection, but does not affect sorting
 				match: camelCaseMatch(processName + parentName + appName),
 				text: { copy: pid },
+				variables: { mode: "kill" }, // when just using `enter`
 				mods: {
 					ctrl: { variables: { mode: "killall" } },
 					cmd: { variables: { mode: "force kill" } },
@@ -142,7 +143,6 @@ function run() {
 		});
 
 	return JSON.stringify({
-		variables: { mode: "kill" },
 		skipknowledge: true, // during rerun remembers selection, but does not affect sorting
 		rerun: rerunSecs,
 		items: processes,
