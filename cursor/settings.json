@@ -73,6 +73,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true,
   "window.commandCenter": true,
+  "window.customTitleBarVisibility": "never",
   "window.dialogStyle": "custom",
   "window.nativeTabs": true,
   "window.restoreWindows": "none",
@@ -99,5 +100,5 @@
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 4,
   "workbench.tree.renderIndentGuides": "none",
-  "yaml.maxItemsComputed": 10000
+  "yaml.maxItemsComputed": 10000,
 }
