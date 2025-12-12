@@ -54,5 +54,6 @@ cask "openvpn-connect"
 cask "rectangle"
 cask "slack"
 cask "transmission"
+cask "visual-studio-code"
 
 # https://handy.computer/download
