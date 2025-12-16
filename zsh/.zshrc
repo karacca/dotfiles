@@ -33,11 +33,7 @@ export EDITOR='vim'
 export LANG=en_US.UTF-8
 
 # Aliases
-alias android="open -a /Applications/Android\ Studio.app"
-alias ls="eza --no-filesize --no-user"
-alias code="open -a /Applications/Cursor.app"
-alias vscode="open -a /Applications/Visual\ Studio\ Code.app"
-alias vim="nvim"
+source $HOME/.aliases.zsh
 
 # ZSH Autosuggestions and Syntax Highlighting
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh

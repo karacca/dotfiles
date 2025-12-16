@@ -26,14 +26,15 @@ create_symlink() {
 
 create_symlink "alacritty/alacritty.toml" "$HOME/.alacritty.toml"
 create_symlink "alacritty/theme.toml" "$HOME/.alacritty-theme.toml"
-create_symlink "cursor/keybindings.json" "$HOME/Library/Application Support/Cursor/User/keybindings.json"
-create_symlink "cursor/settings.json" "$HOME/Library/Application Support/Cursor/User/settings.json"
 create_symlink "cursor/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
+create_symlink "cursor/keybindings.json" "$HOME/Library/Application Support/Cursor/User/keybindings.json"
 create_symlink "cursor/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+create_symlink "cursor/settings.json" "$HOME/Library/Application Support/Cursor/User/settings.json"
 create_symlink "editorconfig/.editorconfig" "$HOME/.editorconfig"
 create_symlink "git/.gitconfig" "$HOME/.gitconfig"
 create_symlink "git/.gitignore" "$HOME/.gitignore"
 create_symlink "homebrew/Brewfile" "$HOME/Brewfile"
+create_symlink "zsh/.aliases.zsh" "$HOME/.aliases.zsh"
 create_symlink "zsh/.zshrc" "$HOME/.zshrc"
 
 git config --global core.excludesfile ~/.gitignore
