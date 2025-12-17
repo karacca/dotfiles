@@ -15,7 +15,7 @@
   ui = auto
 
 [core]
-	excludesfile = /Users/omer/.gitignore
+	excludesfile = ~/.gitignore
 
 [alias]
   ac = "!f() { git add -A && git commit -m \"$1\"; }; f"
