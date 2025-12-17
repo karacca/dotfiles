@@ -36,6 +36,7 @@ create_symlink "git/.gitignore" "$HOME/.gitignore"
 create_symlink "homebrew/Brewfile" "$HOME/Brewfile"
 create_symlink "ssh/config" "$HOME/.ssh/config"
 create_symlink "zsh/.aliases.zsh" "$HOME/.aliases.zsh"
+create_symlink "zsh/.zsh_history" "$HOME/.zsh_history"
 create_symlink "zsh/.zshrc" "$HOME/.zshrc"
 
 if [ ! -f "$HOME/.hushlogin" ]; then
