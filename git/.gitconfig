@@ -18,5 +18,6 @@
 	excludesfile = ~/.gitignore
 
 [alias]
-  ac = "!f() { git add -A && git commit -m \"$1\"; }; f"
   acp = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
+  ac = "!f() { git add -A && git commit -m \"$1\"; }; f"
+  cp = "!f() { git commit -m \"$1\" && git push; }; f"
