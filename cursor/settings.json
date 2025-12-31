@@ -101,4 +101,5 @@
   "workbench.tree.indent": 4,
   "workbench.tree.renderIndentGuides": "none",
   "yaml.maxItemsComputed": 10000,
+  "update.releaseTrack": "prerelease"
 }
